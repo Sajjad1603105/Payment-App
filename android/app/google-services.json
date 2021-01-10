@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "770204987872",
+    "project_id": "payment-app-20cdb",
+    "storage_bucket": "payment-app-20cdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770204987872:android:d06f7dfd643c2bec617b85",
+        "android_client_info": {
+          "package_name": "com.example.payment_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770204987872-hlm9ulmue57baebpec8c7kki1hnev1ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payment_app",
+            "certificate_hash": "76f8dbaf9b30e3d16f1c603fd3ada18055f9d0fb"
+          }
+        },
+        {
+          "client_id": "770204987872-q5osc3uajrnhsn3re007dtv33vqa0sm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbV8Zg_1IiHzvuMoF3QcOX_XP2AdGXQ00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770204987872-q5osc3uajrnhsn3re007dtv33vqa0sm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
