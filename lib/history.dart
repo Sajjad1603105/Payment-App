@@ -41,6 +41,7 @@ class HistoryScreen extends StatefulWidget{
 class HistoryScreenState extends State<HistoryScreen>{ 
     Widget build(context){
         final paidDocs = Provider.of<List<PayInfo>>(context) ?? [];
+        paidDocs.sort((a, b) => b.time.compareTo(a.time));
         return ListView.builder(
             itemCount: paidDocs.length,
             itemBuilder: (context, index) {
